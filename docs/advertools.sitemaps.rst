@@ -8,3 +8,8 @@
    :members:
    :undoc-members:
    :show-inheritance:
+   
+   import advertools as adv
+
+coingecko_sitemap = adv.sitemap_to_df('https://www.coingecko.com/sitemap1.xml')
+coingecko_sitemap.head(10)
